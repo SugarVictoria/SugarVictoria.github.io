@@ -613,6 +613,17 @@ img {
   justify-content: center;
   background: rgba(255, 255, 255, 0.12);
   font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.social a:hover {
+  transform: scale(1.1);
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .reveal {
