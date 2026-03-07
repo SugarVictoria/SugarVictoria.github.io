@@ -1,22 +1,3 @@
 {
-  "posts": [
-    {
-      "title": "Spring Opening Update",
-      "date": "2026-03-01",
-      "summary": "We are open as usual this spring with fresh cakes daily and full coffee service.",
-      "type": "Update"
-    },
-    {
-      "title": "Easter Weekend Hours",
-      "date": "2026-03-28",
-      "summary": "Please check our Visit page for revised Easter weekend opening times.",
-      "type": "Holiday Hours"
-    },
-    {
-      "title": "Planned Kitchen Maintenance",
-      "date": "2026-04-10",
-      "summary": "We may close early on maintenance day. We will confirm final times 48 hours before.",
-      "type": "Closure Notice"
-    }
-  ]
+  "posts": []
 }
