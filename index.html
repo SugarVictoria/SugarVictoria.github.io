@@ -6,6 +6,7 @@
   <meta name="description" content="Sugar &amp; Victoria is an independent cafe in Stourport-on-Severn serving desserts, pastries, coffee, and light lunch favourites.">
   <title>Sugar &amp; Victoria | Home</title>
   <link rel="icon" href="public/pfp.jpg">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -113,6 +114,16 @@
         </div>
       </div>
     </section>
+
+    <section class="section" data-news-root>
+      <div class="container">
+        <h2 class="section-title reveal">Latest News</h2>
+        <p class="section-lead reveal delay-1">Recent updates, closures, and holiday opening times.</p>
+        <div class="grid grid-3" data-news-list aria-live="polite">
+          <p>Loading updates...</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
@@ -131,6 +142,18 @@
 
   <script src="js/navbar.js" defer></script>
   <script src="js/carousel.js" defer></script>
+  <script src="js/news.js" defer></script>
   <script src="js/smooth-scroll.js" defer></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>

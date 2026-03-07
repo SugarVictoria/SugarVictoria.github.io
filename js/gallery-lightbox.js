@@ -1,21 +1,24 @@
 // Opens clicked gallery images in a full-screen lightbox.
 document.addEventListener('DOMContentLoaded', () => {
-  const galleryImages = document.querySelectorAll('[data-gallery-image]');
+  const galleryRoot = document.querySelector('.gallery-grid');
   const lightbox = document.querySelector('[data-lightbox]');
   const lightboxImage = document.querySelector('[data-lightbox-image]');
   const closeButton = document.querySelector('[data-lightbox-close]');
 
-  if (!galleryImages.length || !lightbox || !lightboxImage || !closeButton) {
+  if (!galleryRoot || !lightbox || !lightboxImage || !closeButton) {
     return;
   }
 
-  galleryImages.forEach((image) => {
-    image.addEventListener('click', () => {
-      lightboxImage.src = image.src;
-      lightboxImage.alt = image.alt;
-      lightbox.classList.add('open');
-      lightbox.setAttribute('aria-hidden', 'false');
-    });
+  galleryRoot.addEventListener('click', (event) => {
+    const image = event.target.closest('[data-gallery-image]');
+    if (!image) {
+      return;
+    }
+
+    lightboxImage.src = image.src;
+    lightboxImage.alt = image.alt;
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
   });
 
   function closeLightbox() {

@@ -1,0 +1,88 @@
+{
+  "sections": [
+    {
+      "id": "coffee",
+      "title": "Coffee and Drinks",
+      "items": [
+        {
+          "name": "Flat White",
+          "description": "Velvety steamed milk over rich double espresso.",
+          "price": "GBP 3.40"
+        },
+        {
+          "name": "Caramel Latte",
+          "description": "Smooth espresso, caramel sweetness, and silky foam.",
+          "price": "GBP 3.95"
+        },
+        {
+          "name": "Hot Chocolate Deluxe",
+          "description": "Dark chocolate blend topped with cream and cocoa dust.",
+          "price": "GBP 4.20"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "title": "Cakes and Desserts",
+      "items": [
+        {
+          "name": "Victoria Slice",
+          "description": "Light sponge with jam and vanilla cream layers.",
+          "price": "GBP 4.40"
+        },
+        {
+          "name": "Chocolate Ganache Tart",
+          "description": "Dark chocolate filling in a crisp buttery shell.",
+          "price": "GBP 4.90"
+        },
+        {
+          "name": "Seasonal Cheesecake",
+          "description": "Fresh fruit topping and biscuit base, made in house.",
+          "price": "GBP 4.75"
+        }
+      ]
+    },
+    {
+      "id": "pastries",
+      "title": "Pastries and Treats",
+      "items": [
+        {
+          "name": "Almond Croissant",
+          "description": "Buttery layers, toasted almonds, and a sweet glaze.",
+          "price": "GBP 3.30"
+        },
+        {
+          "name": "Cinnamon Swirl",
+          "description": "Soft pastry roll with warming spice and icing drizzle.",
+          "price": "GBP 3.10"
+        },
+        {
+          "name": "Raspberry Danish",
+          "description": "Creamy custard and raspberry jam in flaky pastry.",
+          "price": "GBP 3.45"
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "title": "Light Lunch",
+      "items": [
+        {
+          "name": "Signature Sausage Roll",
+          "description": "Golden baked puff pastry with seasoned sausage filling.",
+          "price": "GBP 3.80"
+        },
+        {
+          "name": "Three Cheese Toastie",
+          "description": "Mature cheddar, mozzarella, and red leicester on sourdough.",
+          "price": "GBP 5.60"
+        },
+        {
+          "name": "Roast Chicken Sandwich",
+          "description": "Roast chicken, rocket, tomato, and herb mayo.",
+          "price": "GBP 6.20"
+        }
+      ]
+    }
+  ]
+}

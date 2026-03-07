@@ -1,0 +1,97 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: false
+
+media_folder: "public/uploads"
+public_folder: "/public/uploads"
+
+site_url: "/"
+display_url: "/"
+logo_url: "/public/pfp.jpg"
+
+collections:
+  - name: "site_content"
+    label: "Site Content"
+    files:
+      - file: "data/gallery.json"
+        label: "Gallery"
+        name: "gallery"
+        fields:
+          - label: "Images"
+            name: "images"
+            widget: list
+            summary: "{{fields.alt}}"
+            fields:
+              - label: "Photo"
+                name: "image"
+                widget: image
+                choose_url: false
+                media_library:
+                  config:
+                    multiple: false
+              - label: "Alt Text"
+                name: "alt"
+                widget: string
+                required: false
+
+      - file: "data/menu.json"
+        label: "Menu"
+        name: "menu"
+        fields:
+          - label: "Sections"
+            name: "sections"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - label: "Section ID"
+                name: "id"
+                widget: string
+                hint: "Use short lowercase id (e.g. coffee, desserts)."
+              - label: "Section Title"
+                name: "title"
+                widget: string
+              - label: "Items"
+                name: "items"
+                widget: list
+                summary: "{{fields.name}} - {{fields.price}}"
+                fields:
+                  - label: "Item Name"
+                    name: "name"
+                    widget: string
+                  - label: "Description"
+                    name: "description"
+                    widget: text
+                    required: false
+                  - label: "Price"
+                    name: "price"
+                    widget: string
+                    hint: "Example: GBP 4.20"
+
+      - file: "data/news.json"
+        label: "Latest News"
+        name: "news"
+        fields:
+          - label: "Posts"
+            name: "posts"
+            widget: list
+            summary: "{{fields.date}} - {{fields.title}}"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: string
+              - label: "Date"
+                name: "date"
+                widget: datetime
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                picker_utc: false
+              - label: "Type"
+                name: "type"
+                widget: string
+                hint: "Examples: Update, Closure Notice, Holiday Hours"
+              - label: "Summary"
+                name: "summary"
+                widget: text

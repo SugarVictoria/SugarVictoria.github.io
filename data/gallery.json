@@ -1,0 +1,88 @@
+{
+  "images": [
+    {
+      "image": "/public/storefront.jpg",
+      "alt": "Sugar & Victoria storefront"
+    },
+    {
+      "image": "/public/interior1.jpg",
+      "alt": "Cosy cafe interior"
+    },
+    {
+      "image": "/public/interior2.jpg",
+      "alt": "Cafe seating area"
+    },
+    {
+      "image": "/public/coffee.jpg",
+      "alt": "Coffee cups and latte art"
+    },
+    {
+      "image": "/public/celebrationcakes.jpg",
+      "alt": "Beautiful celebration cakes"
+    },
+    {
+      "image": "/public/largecakes.jpg",
+      "alt": "Display of large cakes"
+    },
+    {
+      "image": "/public/victoriasponge.jpg",
+      "alt": "Victoria sponge cake"
+    },
+    {
+      "image": "/public/vanillabasquecheeesecake.jpg",
+      "alt": "Vanilla Basque cheesecake"
+    },
+    {
+      "image": "/public/birthdayboxofcakes.jpg",
+      "alt": "Birthday box of cakes"
+    },
+    {
+      "image": "/public/brownies.jpg",
+      "alt": "Chocolate brownies"
+    },
+    {
+      "image": "/public/vanillacreamcroissants.jpg",
+      "alt": "Vanilla cream croissants"
+    },
+    {
+      "image": "/public/sausagerolls.jpg",
+      "alt": "Freshly baked sausage rolls"
+    },
+    {
+      "image": "/public/baguettesandwiches.jpg",
+      "alt": "Fresh baguette sandwiches"
+    },
+    {
+      "image": "/public/morefreshsandwiches.jpg",
+      "alt": "Selection of fresh sandwiches"
+    },
+    {
+      "image": "/public/corinationchickensandwich.jpg",
+      "alt": "Coronation chicken sandwich"
+    },
+    {
+      "image": "/public/saladandchickenbowls.jpg",
+      "alt": "Salad and chicken bowls"
+    },
+    {
+      "image": "/public/pierogi.jpg",
+      "alt": "Homemade pierogi"
+    },
+    {
+      "image": "/public/largeselectionplatterofcheescake,brownies,cookies&creamsandwich,corssaintswithcreamandstrawberries.jpg",
+      "alt": "Large platter with cheesecake, brownies, cookies and croissants"
+    },
+    {
+      "image": "/public/exteriorandstaffdecoratedanddressedforcarnivalevent.jpg",
+      "alt": "Cafe exterior decorated for carnival event"
+    },
+    {
+      "image": "/public/exterior.jpg",
+      "alt": "Cafe exterior view"
+    },
+    {
+      "image": "/public/ownerwithlocalpcso.jpg",
+      "alt": "Cafe owner with local PCSO"
+    }
+  ]
+}
