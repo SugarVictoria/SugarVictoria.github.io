@@ -671,6 +671,17 @@ img {
     transform: translateY(0);
   }
 
+  .brand-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+  }
+
+  .brand {
+    gap: 8px;
+    font-size: 1.2rem;
+  }
+
   .grid-2,
   .grid-3 {
     grid-template-columns: 1fr;
