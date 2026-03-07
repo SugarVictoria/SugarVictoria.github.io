@@ -18,6 +18,11 @@
           "name": "Hot Chocolate Deluxe",
           "description": "Dark chocolate blend topped with cream and cocoa dust.",
           "price": "GBP 4.20"
+        },
+        {
+          "name": "Hot Chocolate",
+          "description": "Classic hot chocolate made with rich cocoa and steamed milk.",
+          "price": "GBP 4.00"
         }
       ]
     },
@@ -81,6 +86,11 @@
           "name": "Roast Chicken Sandwich",
           "description": "Roast chicken, rocket, tomato, and herb mayo.",
           "price": "GBP 6.20"
+        },
+        {
+          "name": "Beans on Toast",
+          "description": "Warm baked beans served on thick-cut toasted bread.",
+          "price": "GBP 5.60"
         }
       ]
     }
