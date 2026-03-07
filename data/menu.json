@@ -91,6 +91,11 @@
           "name": "Beans on Toast",
           "description": "Warm baked beans served on thick-cut toasted bread.",
           "price": "GBP 5.60"
+        },
+        {
+          "name": "Eggs on Toast",
+          "description": "Freshly cooked eggs served on thick-cut toasted bread.",
+          "price": "GBP 6.00"
         }
       ]
     }
