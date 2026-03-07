@@ -11,6 +11,14 @@ site_url: "/"
 display_url: "/"
 logo_url: "/public/pfp.jpg"
 
+# Mobile-friendly settings
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+# Show preview panel (can be toggled off on mobile if needed)
+show_preview_links: false
+
 collections:
   - name: "site_content"
     label: "Site Content"
