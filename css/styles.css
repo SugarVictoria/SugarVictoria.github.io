@@ -656,8 +656,15 @@ img {
 }
 
 @media (max-width: 760px) {
+  .navbar-inner {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 16px;
+  }
+
   .nav-toggle {
     display: block;
+    margin-left: auto;
   }
 
   .nav-links {
@@ -691,6 +698,13 @@ img {
   .brand {
     gap: 8px;
     font-size: 1.2rem;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
   }
 
   .grid-2,
