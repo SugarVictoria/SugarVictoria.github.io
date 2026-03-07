@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read what customers say about Sugar &amp; Victoria cafe in Stourport-on-Severn.">
+  <title>Sugar &amp; Victoria | Reviews</title>
+  <link rel="icon" href="public/pfp.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a class="brand" href="index.html"><img src="public/pfp.jpg" alt="" class="brand-logo">Sugar &amp; Victoria</a>
+      <button class="nav-toggle" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" data-nav-links>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a class="active" href="reviews.html">Reviews</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title reveal">Customer Reviews</h1>
+      <p class="section-lead reveal delay-1">Kind words from local guests who keep coming back for the food, coffee, and friendly atmosphere.</p>
+
+      <section class="reviews-showcase" data-reviews-root>
+        <div class="reviews-toolbar">
+          <p class="review-count" data-review-count>Loading reviews...</p>
+          <button class="btn btn-primary" type="button" data-toggle-all aria-expanded="false">View all reviews</button>
+        </div>
+
+        <div class="reviews-carousel card" data-reviews-carousel>
+          <button class="reviews-nav prev" type="button" data-reviews-prev aria-label="Previous review">&#10094;</button>
+          <div class="reviews-viewport">
+            <div class="reviews-track" data-reviews-track>
+              <article class="review-slide">
+                <h2>Loading reviews...</h2>
+                <p>Please wait while we fetch the latest customer feedback.</p>
+              </article>
+            </div>
+          </div>
+          <button class="reviews-nav next" type="button" data-reviews-next aria-label="Next review">&#10095;</button>
+        </div>
+
+        <div class="reviews-dots" data-reviews-dots aria-label="Carousel indicators"></div>
+
+        <div class="all-reviews-controls" data-sort-controls hidden>
+          <label for="reviews-sort">Sort reviews:</label>
+          <select id="reviews-sort" data-reviews-sort>
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="highest">Highest rating</option>
+            <option value="lowest">Lowest rating</option>
+          </select>
+        </div>
+
+        <section class="grid grid-2 all-reviews" data-all-reviews hidden aria-label="All customer reviews"></section>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Sugar &amp; Victoria</strong><br>
+        Stourport-on-Severn, Worcestershire, UK
+      </div>
+      <div class="social" aria-label="Social media links">
+        <a href="https://www.instagram.com/sugarandvictoria/" aria-label="Instagram">IG</a>
+        <a href="https://www.facebook.com/profile.php?id=100027121431804&sk=photos" aria-label="Facebook">FB</a>
+      </div>
+      <div>&copy; 2026 Sugar &amp; Victoria. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/navbar.js" defer></script>
+  <script src="js/reviews.js" defer></script>
+  <script src="js/smooth-scroll.js" defer></script>
+</body>
+</html>

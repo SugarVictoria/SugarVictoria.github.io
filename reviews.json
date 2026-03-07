@@ -1,0 +1,238 @@
+{
+  "reviews": [
+    {
+      "author": "Christine M",
+      "source": "TripAdvisor",
+      "date": "6 Mar 2026",
+      "rating": 5,
+      "title": "85th Birthday cake",
+      "text": "I ordered a beautiful cake for my mom’s 85th birthday. Kasia is lovely and explained everything to me. Thank you."
+    },
+    {
+      "author": "Susan K",
+      "source": "TripAdvisor",
+      "date": "18 Feb 2026",
+      "rating": 5,
+      "title": "A gem",
+      "text": "A gem of a find. The owner is lovely and makes the most amazing sausage rolls and delicious cakes. Coffee is great and the café is cosy with fresh flowers on every table."
+    },
+    {
+      "author": "Oliver Walker PPC",
+      "source": "TripAdvisor",
+      "date": "3 Dec 2025",
+      "rating": 5,
+      "title": "Lovely owner, delicious sausage rolls",
+      "text": "Visited this new café in Stourport and the owner was lovely. I had a sausage roll and it was delicious."
+    },
+
+    {
+      "author": "Susan Curtis",
+      "source": "Facebook",
+      "date": "12 Jan 2026",
+      "rating": 5,
+      "title": "Lovely coffee and cake",
+      "text": "What a lovely place for a relaxing coffee and cake. So welcoming and friendly. Super delicious cake and very good coffee."
+    },
+    {
+      "author": "Kate Harris",
+      "source": "Facebook",
+      "date": "5 Sep 2025",
+      "rating": 5,
+      "title": "Exceptional wedding desserts",
+      "text": "Sugar Victoria provided exceptional desserts for our wedding. Bespoke cheesecakes and personalised designs with amazing taste."
+    },
+    {
+      "author": "Rachel Lee Haines",
+      "source": "Facebook",
+      "date": "18 Oct 2025",
+      "rating": 5,
+      "title": "Beautiful birthday cake",
+      "text": "Beautiful birthday cake made by Sugar Victoria. Amazing cakes and cheesecakes with great service."
+    },
+
+    {
+      "author": "Bailie B",
+      "source": "Google",
+      "date": "14 Jul 2025",
+      "rating": 5,
+      "title": "Amazing food and drink",
+      "text": "Amazing food and drink, a fine dining experience at costs cheaper than Starbucks. The menu is lovely and Kasia is wonderful."
+    },
+    {
+      "author": "Lance Broadwith",
+      "source": "Google",
+      "date": "3 Feb 2026",
+      "rating": 5,
+      "title": "Fantastic weekly café visit",
+      "text": "Fantastic place for our weekly day date. Fresh rolls and savoury items and excellent cakes made on the premises by Kasia."
+    },
+    {
+      "author": "Hilary Hollis",
+      "source": "Google",
+      "date": "11 Feb 2026",
+      "rating": 5,
+      "title": "Beautiful celebration cupcakes",
+      "text": "Kasia made beautiful cupcakes for my daughter’s birthday. Lovely flavours and beautifully presented."
+    },
+    {
+      "author": "Kieran Startup",
+      "source": "Google",
+      "date": "18 Feb 2026",
+      "rating": 5,
+      "title": "Lovely family café",
+      "text": "A lovely independent café with friendly service, great hot chocolates, coffee and cake."
+    },
+    {
+      "author": "Izabelle Broadwith",
+      "source": "Google",
+      "date": "24 Feb 2026",
+      "rating": 5,
+      "title": "Fantastic cakes",
+      "text": "The cakes are absolutely fantastic and full of flavour. A welcoming place to relax."
+    },
+    {
+      "author": "Liz Bloomer",
+      "source": "Google",
+      "date": "21 Feb 2026",
+      "rating": 5,
+      "title": "Beautiful cakes and pastries",
+      "text": "Lovely little café serving beautiful cakes and pastries and open later than most cafés nearby."
+    },
+    {
+      "author": "Mariyah",
+      "source": "Google",
+      "date": "18 Nov 2025",
+      "rating": 5,
+      "title": "Beautifully packaged cakes",
+      "text": "Lovely customer service from Kasia. Cakes were beautifully packaged and perfect for gifting."
+    },
+    {
+      "author": "Melissa Walters",
+      "source": "Google",
+      "date": "9 Feb 2026",
+      "rating": 5,
+      "title": "Amazing bakery items",
+      "text": "Highly recommend for bespoke bakery items from sausage rolls to cheesecakes and apple pies."
+    },
+    {
+      "author": "Emma Baylis",
+      "source": "Google",
+      "date": "27 Feb 2026",
+      "rating": 5,
+      "title": "Wonderful café",
+      "text": "Absolutely wonderful place. Food is delicious and the owner is super friendly."
+    },
+    {
+      "author": "Megan Brindley",
+      "source": "Google",
+      "date": "9 Jul 2025",
+      "rating": 5,
+      "title": "Great coffee and desserts",
+      "text": "Iced coffee, sorbet and eclairs were super tasty and well priced. Great atmosphere."
+    },
+    {
+      "author": "The Cornish Farmer",
+      "source": "Google",
+      "date": "12 Oct 2025",
+      "rating": 5,
+      "title": "Fantastic food and coffee",
+      "text": "Sampled baguettes, sandwiches, steak and ale pie and soup. Everything had flavour and the coffee is excellent."
+    },
+    {
+      "author": "Beka O",
+      "source": "Google",
+      "date": "22 Jul 2025",
+      "rating": 5,
+      "title": "Cute family café",
+      "text": "Cute family run café with lovely cakes, good coffee and Marshfield ice cream."
+    },
+    {
+      "author": "Jane Stephens",
+      "source": "Google",
+      "date": "4 Feb 2026",
+      "rating": 5,
+      "title": "Fresh tasty food",
+      "text": "Lovely welcome followed by very tasty freshly made food at a reasonable price."
+    },
+    {
+      "author": "Simon Pratley",
+      "source": "Google",
+      "date": "15 Feb 2026",
+      "rating": 5,
+      "title": "Delicious chocolate cake",
+      "text": "Chocolate Christmas cake was delicious and the family loved it."
+    },
+    {
+      "author": "Jack Connolly",
+      "source": "Google",
+      "date": "17 Sep 2025",
+      "rating": 5,
+      "title": "Brilliant food and drink",
+      "text": "Lovely small café with brilliant food and drink at a very reasonable price."
+    },
+    {
+      "author": "Julie",
+      "source": "Google",
+      "date": "5 Nov 2025",
+      "rating": 5,
+      "title": "Very friendly service",
+      "text": "What a lovely place. The staff were so friendly and welcoming."
+    },
+    {
+      "author": "Sophie Harrington",
+      "source": "Google",
+      "date": "16 Feb 2026",
+      "rating": 5,
+      "title": "Delicious hot chocolate",
+      "text": "Had the most delicious orange hot chocolate. Lovely service and cosy atmosphere."
+    },
+    {
+      "author": "Lee Shaw",
+      "source": "Google",
+      "date": "6 Aug 2025",
+      "rating": 5,
+      "title": "Delicious cakes",
+      "text": "Visited a few times for cake and everything has been delicious."
+    },
+    {
+      "author": "Therese Freeman",
+      "source": "Google",
+      "date": "21 Aug 2025",
+      "rating": 5,
+      "title": "Beautifully presented desserts",
+      "text": "Delicious iced coffee and strawberry tart. Beautifully presented and homemade."
+    },
+    {
+      "author": "Matt Harris",
+      "source": "Google",
+      "date": "28 Feb 2026",
+      "rating": 5,
+      "title": "Amazing food",
+      "text": "Amazing food and lovely staff. Will definitely be back."
+    },
+    {
+      "author": "Angie Monroe",
+      "source": "Google",
+      "date": "14 Feb 2026",
+      "rating": 5,
+      "title": "Cute café",
+      "text": "Such a cute place and a great addition to Stourport."
+    },
+    {
+      "author": "Christine Melling",
+      "source": "Google",
+      "date": "6 Mar 2026",
+      "rating": 5,
+      "title": "Beautiful birthday cake",
+      "text": "Beautiful cake made for my mum’s 85th birthday and tasty coffee too."
+    },
+    {
+      "author": "Adrian Parker",
+      "source": "Google",
+      "date": "28 Feb 2026",
+      "rating": 5,
+      "title": "Great little café",
+      "text": "Delicious coffee and cake. Stourport is lucky to have this wonderful café."
+    }
+  ]
+}
