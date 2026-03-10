@@ -76,20 +76,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         day: 'numeric',
       });
 
-      const linkCta = post.link_url
-        ? `<p class="news-card-cta">${escapeHtml(post.link_label || 'Find out more')} &rarr;</p>`
+      const linkLine = post.link_url
+        ? `<p class="news-card-cta"><a href="${escapeHtml(post.link_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.link_label || post.link_url)}</a></p>`
         : '';
 
-      const inner = `
+      return `
+        <article class="card">
           <h3>${escapeHtml(post.title)}</h3>
           <p><strong>${escapeHtml(post.type || 'News')}:</strong> ${dateLabel}</p>
           <p>${escapeHtml(post.summary || '')}</p>
-          ${linkCta}
-        `;
-
-      return post.link_url
-        ? `<a class="card card-link" href="${escapeHtml(post.link_url)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
-        : `<article class="card">${inner}</article>`;
+          ${linkLine}
+        </article>
+      `;
     })
     .join('');
 });
