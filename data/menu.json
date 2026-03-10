@@ -23,6 +23,11 @@
           "name": "Hot Chocolate",
           "description": "Classic hot chocolate made with rich cocoa and steamed milk.",
           "price": "GBP 4.00"
+        },
+        {
+          "name": "Caramel Hot Chocolate",
+          "price": "GBP 5.40",
+          "description": "Creamy hot chocolate with caramel sauce"
         }
       ]
     },
