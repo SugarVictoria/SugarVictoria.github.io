@@ -32,6 +32,15 @@
     </div>
   </header>
 
+  <div class="news-ticker" data-news-ticker aria-label="Today's updates">
+    <span class="news-ticker-label">Today</span>
+    <div class="news-ticker-overflow">
+      <div class="news-ticker-track" data-news-ticker-track>
+        <span class="news-ticker-item">Loading today's updates…</span>
+      </div>
+    </div>
+  </div>
+
   <main>
     <section class="hero" id="top">
       <img class="hero-bg" src="public/storefront.jpg" alt="Sugar &amp; Victoria cafe storefront in Stourport-on-Severn">
@@ -41,6 +50,16 @@
         <div class="btn-row">
           <a class="btn btn-primary" href="menu.html">Explore Menu</a>
           <a class="btn btn-secondary" href="visit.html">Plan Your Visit</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-news-root>
+      <div class="container">
+        <h2 class="section-title reveal">Latest News</h2>
+        <p class="section-lead reveal delay-1">Recent updates, closures, and holiday opening times.</p>
+        <div class="grid grid-3" data-news-list aria-live="polite">
+          <p>Loading updates...</p>
         </div>
       </div>
     </section>
@@ -111,15 +130,6 @@
       </div>
     </section>
 
-    <section class="section" data-news-root>
-      <div class="container">
-        <h2 class="section-title reveal">Latest News</h2>
-        <p class="section-lead reveal delay-1">Recent updates, closures, and holiday opening times.</p>
-        <div class="grid grid-3" data-news-list aria-live="polite">
-          <p>Loading updates...</p>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
