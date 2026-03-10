@@ -76,11 +76,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         day: 'numeric',
       });
 
+      const linkHtml = post.link_url
+        ? `<p><a href="${escapeHtml(post.link_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.link_label || 'Find out more')}</a></p>`
+        : '';
+
       return `
         <article class="card">
           <h3>${escapeHtml(post.title)}</h3>
           <p><strong>${escapeHtml(post.type || 'News')}:</strong> ${dateLabel}</p>
           <p>${escapeHtml(post.summary || '')}</p>
+          ${linkHtml}
         </article>
       `;
     })

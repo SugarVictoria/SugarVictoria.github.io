@@ -1,3 +1,12 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "title": "England Business Awards Finalist!",
+      "date": "2026-03-10",
+      "type": "Exciting News",
+      "summary": "We have been nominated and are now finalists for the Worcestershire district at the England Business Awards. Voting is still open — click below to support us!",
+      "link_url": "https://englandsbusinessawards.co.uk/worcestershire/",
+      "link_label": "Vote for us here"
+    }
+  ]
 }

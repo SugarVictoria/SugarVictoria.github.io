@@ -103,6 +103,16 @@ collections:
               - label: "Summary"
                 name: "summary"
                 widget: text
+              - label: "Link URL"
+                name: "link_url"
+                widget: string
+                required: false
+                hint: "Optional URL to link from this post."
+              - label: "Link Label"
+                name: "link_label"
+                widget: string
+                required: false
+                hint: "Text for the link, e.g. 'Vote for us here'."
 
       - file: "data/homepage.json"
         label: "Homepage Sections"
