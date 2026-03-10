@@ -341,6 +341,17 @@ img {
   color: var(--chocolate);
 }
 
+a.card-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.card-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(59, 42, 35, 0.18);
+}
+
 .feature-card img {
   border-radius: var(--radius-sm);
   margin-bottom: 14px;

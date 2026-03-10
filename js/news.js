@@ -80,14 +80,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         ? `<p><a href="${escapeHtml(post.link_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.link_label || 'Find out more')}</a></p>`
         : '';
 
-      return `
-        <article class="card">
+      const inner = `
           <h3>${escapeHtml(post.title)}</h3>
           <p><strong>${escapeHtml(post.type || 'News')}:</strong> ${dateLabel}</p>
           <p>${escapeHtml(post.summary || '')}</p>
-          ${linkHtml}
-        </article>
-      `;
+        `;
+
+      return post.link_url
+        ? `<a class="card card-link" href="${escapeHtml(post.link_url)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
+        : `<article class="card">${inner}</article>`;
     })
     .join('');
 });
