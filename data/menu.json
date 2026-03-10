@@ -4,101 +4,97 @@
       "id": "savouries",
       "title": "Savouries",
       "items": [
-        { "name": "Signature Sausage Roll", "price": "GBP 3.45" },
-        { "name": "Veggie Vibe Tart", "price": "GBP 3.95" },
-        { "name": "Homemade Soup served with Cheese Toastie", "price": "GBP 6.50" }
+        { "name": "Signature Sausage Roll", "description": "Golden puff pastry packed with our own seasoned sausage mix, baked fresh in house every morning.", "price": "GBP 3.45" },
+        { "name": "Veggie Vibe Tart", "description": "A crisp shortcrust tart filled with roasted seasonal vegetables and a light herb cream.", "price": "GBP 3.95" },
+        { "name": "Homemade Soup served with Cheese Toastie", "description": "A warming bowl of freshly made soup paired with a golden buttered cheese toastie on the side.", "price": "GBP 6.50" }
       ]
     },
     {
       "id": "panini",
       "title": "Hot Panini",
       "items": [
-        { "name": "Cheddar & Tomato", "price": "GBP 5.00" },
-        { "name": "Cheddar & Roast Ham", "price": "GBP 5.50" },
-        { "name": "Cheddar & Tuna Melt", "price": "GBP 5.50" }
+        { "name": "Cheddar & Tomato", "description": "Melted mature cheddar and ripe tomato pressed in a toasted panini.", "price": "GBP 5.00" },
+        { "name": "Cheddar & Roast Ham", "description": "Thick-cut roast ham and cheddar melted together in a warm toasted panini.", "price": "GBP 5.50" },
+        { "name": "Cheddar & Tuna Melt", "description": "Creamy tuna and melted cheddar in a toasted panini — a cafe classic.", "price": "GBP 5.50" }
       ]
     },
     {
       "id": "baps",
       "title": "Baps",
       "items": [
-        { "name": "Cheddar, Onion, Tomato, Lettuce", "price": "GBP 4.00" },
-        { "name": "Roast Ham, Tomato, Lettuce", "price": "GBP 4.50" }
+        { "name": "Cheddar, Onion, Tomato, Lettuce", "description": "A soft bap filled with mature cheddar, sliced onion, tomato, and crisp lettuce.", "price": "GBP 4.00" },
+        { "name": "Roast Ham, Tomato, Lettuce", "description": "Generous slices of roast ham with fresh tomato and lettuce in a soft bap.", "price": "GBP 4.50" }
       ]
     },
     {
       "id": "baguettes",
       "title": "Fresh Baguettes",
       "items": [
-        { "name": "BLT", "price": "GBP 5.50" },
-        { "name": "Coronation Chicken & Tomato", "price": "GBP 5.50" }
+        { "name": "BLT", "description": "Crispy bacon, fresh lettuce, and ripe tomato in a crusty artisan baguette.", "price": "GBP 5.50" },
+        { "name": "Coronation Chicken & Tomato", "description": "tender chicken in a lightly spiced coronation sauce with tomato, served in a fresh baguette.", "price": "GBP 5.50" }
       ]
     },
     {
       "id": "hot-drinks",
       "title": "Hot Drinks",
       "items": [
-        { "name": "Americano", "price": "GBP 3.10" },
-        { "name": "Cappuccino", "price": "GBP 3.95" },
-        { "name": "Babyccino", "price": "GBP 2.50" },
-        { "name": "Flat White", "price": "GBP 3.95" },
-        { "name": "Latte", "price": "GBP 3.95" },
-        { "name": "Espresso", "price": "GBP 2.60" },
-        { "name": "Double Espresso", "price": "GBP 3.10" },
-        { "name": "Mocha", "price": "GBP 4.15" },
-        { "name": "Hot Chocolate", "price": "GBP 3.95" },
-        { "name": "Hot Chocolate Deluxe", "price": "GBP 4.60" },
-        { "name": "Terry's Orange Hot Chocolate", "price": "GBP 5.40" },
-        { "name": "Caramel Hot Chocolate", "price": "GBP 5.40" },
-        { "name": "English Tea", "price": "GBP 2.50" },
-        { "name": "Organic Green Tea", "price": "GBP 2.70" },
-        { "name": "Lemon & Honey", "price": "GBP 2.70" },
-        { "name": "Pomegranate", "price": "GBP 2.70" },
-        { "name": "Ginger & Peach", "price": "GBP 2.70" },
-        { "name": "Melissa (Organic Balm Tea)", "price": "GBP 2.70" },
-        { "name": "Orange Black Tea", "price": "GBP 2.70" },
-        { "name": "Cranberry Black Tea", "price": "GBP 2.70" }
+        { "name": "Americano", "description": "A long black coffee with a smooth, clean finish.", "price": "GBP 3.10" },
+        { "name": "Cappuccino", "description": "Equal parts espresso, steamed milk, and thick velvet foam.", "price": "GBP 3.95" },
+        { "name": "Babyccino", "description": "Warm frothy milk — a little cup of cosy for the small ones.", "price": "GBP 2.50" },
+        { "name": "Flat White", "description": "Velvety microfoam over a double ristretto shot for a rich, smooth sip.", "price": "GBP 3.95" },
+        { "name": "Latte", "description": "Silky steamed milk poured over a shot of espresso.", "price": "GBP 3.95" },
+        { "name": "Espresso", "description": "A short, intense shot of freshly ground coffee.", "price": "GBP 2.60" },
+        { "name": "Double Espresso", "description": "Two shots pulled together for a bolder, richer hit.", "price": "GBP 3.10" },
+        { "name": "Mocha", "description": "Rich espresso blended with chocolate and steamed milk.", "price": "GBP 4.15" },
+        { "name": "Hot Chocolate", "description": "Creamy classic hot chocolate made with quality cocoa and steamed milk.", "price": "GBP 3.95" },
+        { "name": "Hot Chocolate Deluxe", "description": "Our classic hot chocolate topped with squirty cream and a dusting of cocoa.", "price": "GBP 4.60" },
+        { "name": "Terry's Orange Hot Chocolate", "description": "A velvety hot chocolate with a hint of zesty orange — an indulgent treat.", "price": "GBP 5.40" },
+        { "name": "Caramel Hot Chocolate", "description": "Smooth hot chocolate swirled with rich caramel for a sweet warming drink.", "price": "GBP 5.40" },
+        { "name": "English Tea", "description": "A classic pot of English breakfast tea, served just as you like it.", "price": "GBP 2.50" },
+        { "name": "Organic Green Tea", "description": "A light, clean organic green tea with natural antioxidants.", "price": "GBP 2.70" },
+        { "name": "Lemon & Honey", "description": "Soothing herbal infusion of lemon and honey — a gentle favourite.", "price": "GBP 2.70" },
+        { "name": "Pomegranate", "description": "Fruity pomegranate tea with a vibrant, tangy character.", "price": "GBP 2.70" },
+        { "name": "Ginger & Peach", "description": "A warming blend of spicy ginger and sweet peachy notes.", "price": "GBP 2.70" },
+        { "name": "Melissa (Organic Balm Tea)", "description": "A calming organic lemon balm tea, gently aromatic and naturally relaxing.", "price": "GBP 2.70" },
+        { "name": "Orange Black Tea", "description": "Classic black tea brightened with a natural orange citrus flavour.", "price": "GBP 2.70" },
+        { "name": "Cranberry Black Tea", "description": "Bold black tea with a tart cranberry twist for a refreshing brew.", "price": "GBP 2.70" }
       ]
     },
     {
       "id": "add-ons",
       "title": "Add Ons / Extras",
       "items": [
-        { "name": "Alternative Milk", "price": "GBP 0.50" },
-        { "name": "Extra Coffee Shot", "price": "GBP 0.80" },
-        { "name": "Squirty Cream", "price": "GBP 0.60" },
-        { "name": "Scoop of Ice Cream", "price": "GBP 2.75" },
-        { "name": "Syrup – Caramel", "price": "GBP 0.80" },
-        { "name": "Syrup – Cinnamon Roll", "price": "GBP 0.80" },
-        { "name": "Syrup – Vanilla", "price": "GBP 0.80" },
-        { "name": "Syrup – Pistachio", "price": "GBP 0.80" },
-        { "name": "Syrup – Raspberry", "price": "GBP 0.80" }
+        { "name": "Alternative Milk", "description": "Swap to oat, almond, soy, or coconut milk in any drink.", "price": "GBP 0.50" },
+        { "name": "Extra Coffee Shot", "description": "An additional espresso shot added to any coffee drink.", "price": "GBP 0.80" },
+        { "name": "Squirty Cream", "description": "A generous swirl of whipped cream on top of any drink.", "price": "GBP 0.60" },
+        { "name": "Scoop of Ice Cream", "description": "A scoop of classic vanilla ice cream alongside any dessert or drink.", "price": "GBP 2.75" },
+        { "name": "Flavour Syrup", "description": "Add a flavour shot to any drink — choose from Caramel, Cinnamon Roll, Vanilla, Pistachio, or Raspberry.", "price": "GBP 0.80" }
       ]
     },
     {
       "id": "cold-drinks",
       "title": "Cold Drinks",
       "items": [
-        { "name": "Cans", "price": "GBP 1.95" },
-        { "name": "Water", "price": "GBP 1.60" },
-        { "name": "J2O", "price": "GBP 2.65" },
-        { "name": "Vit-Hit", "price": "GBP 2.50" },
-        { "name": "Kids Juice", "price": "GBP 1.60" },
-        { "name": "Ice Tea", "price": "GBP 3.80" },
-        { "name": "Watermelon Lemonade", "price": "GBP 3.80" },
-        { "name": "Pink Lemonade", "price": "GBP 3.80" }
+        { "name": "Cans", "description": "Selection of chilled soft drink cans.", "price": "GBP 1.95" },
+        { "name": "Water", "description": "Still bottled water.", "price": "GBP 1.60" },
+        { "name": "J2O", "description": "A refreshing fruit juice blend, served chilled.", "price": "GBP 2.65" },
+        { "name": "Vit-Hit", "description": "Vitamin-enriched flavoured water for a light, healthy refresher.", "price": "GBP 2.50" },
+        { "name": "Kids Juice", "description": "A small juice carton perfect for little ones.", "price": "GBP 1.60" },
+        { "name": "Ice Tea", "description": "Chilled brewed tea — light, refreshing, and not too sweet.", "price": "GBP 3.80" },
+        { "name": "Watermelon Lemonade", "description": "Fresh lemonade blended with juicy watermelon for a fruity summer sip.", "price": "GBP 3.80" },
+        { "name": "Pink Lemonade", "description": "A blush lemonade with a sweet berry finish, served over ice.", "price": "GBP 3.80" }
       ]
     },
     {
       "id": "deals",
       "title": "Deals",
       "items": [
-        { "name": "Coffee & Cake (Mon–Fri)", "price": "GBP 7.50" },
-        { "name": "Pot of Tea & Cake (Mon–Fri)", "price": "GBP 6.50" },
-        { "name": "Lunch Deal: Hot Panini + Crisps + Hot Drink (11–14)", "price": "GBP 9.00" },
-        { "name": "Lunch Deal: Hot Panini + Crisps + Cold Drink (11–14)", "price": "GBP 8.00" },
-        { "name": "Quick Bite: Veggie Tart + Hot Drink", "price": "GBP 5.95" },
-        { "name": "Quick Bite: Sausage Roll + Hot Drink", "price": "GBP 5.95" }
+        { "name": "Coffee & Cake", "description": "Any coffee paired with a slice of cake — available Monday to Friday.", "price": "GBP 7.50" },
+        { "name": "Pot of Tea & Cake", "description": "A pot of your chosen tea with a slice of cake — available Monday to Friday.", "price": "GBP 6.50" },
+        { "name": "Lunch Deal – Hot Drink", "description": "Any hot panini with crisps and a hot drink. Available 11am–2pm.", "price": "GBP 9.00" },
+        { "name": "Lunch Deal – Cold Drink", "description": "Any hot panini with crisps and a cold drink. Available 11am–2pm.", "price": "GBP 8.00" },
+        { "name": "Quick Bite – Veggie Tart", "description": "Veggie Vibe Tart served with any hot drink.", "price": "GBP 5.95" },
+        { "name": "Quick Bite – Sausage Roll", "description": "Signature Sausage Roll served with any hot drink.", "price": "GBP 5.95" }
       ]
     }
   ]
