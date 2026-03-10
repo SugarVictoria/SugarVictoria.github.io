@@ -24,10 +24,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     return path.startsWith('/') ? path.slice(1) : path;
   }
 
-  function normalizeForCompare(path) {
-    return normalizePath(path).toLowerCase();
-  }
-
   function setText(element, value) {
     if (element && value) {
       element.textContent = value;
@@ -43,10 +39,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       .replace(/'/g, '&#39;');
   }
 
-  function renderSlides(track, slides, galleryLookup) {
-    const validSlides = slides
-      .filter((slide) => slide && slide.image)
-      .filter((slide) => galleryLookup.has(normalizeForCompare(slide.image)));
+  function renderSlides(track, slides) {
+    const validSlides = slides.filter((slide) => slide && slide.image);
 
     if (!validSlides.length) {
       return;
@@ -69,23 +63,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   try {
-    const [homepageResponse, galleryResponse] = await Promise.all([
-      fetch('data/homepage.json', { cache: 'no-store' }),
-      fetch('data/gallery.json', { cache: 'no-store' })
-    ]);
+    const homepageResponse = await fetch('data/homepage.json', { cache: 'no-store' });
 
-    if (!homepageResponse.ok || !galleryResponse.ok) {
+    if (!homepageResponse.ok) {
       throw new Error('Unable to load homepage carousel data.');
     }
 
     const homepageData = await homepageResponse.json();
-    const galleryData = await galleryResponse.json();
-    const galleryImages = Array.isArray(galleryData.images) ? galleryData.images : [];
-    const galleryLookup = new Set(
-      galleryImages
-        .filter((item) => item && item.image)
-        .map((item) => normalizeForCompare(item.image))
-    );
 
     const homeCarousel = homepageData.home_carousel || {};
     const cakesCarousel = homepageData.cakes_carousel || {};
@@ -108,8 +92,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const homeSlides = Array.isArray(homeCarousel.slides) ? homeCarousel.slides : [];
     const cakesSlides = Array.isArray(cakesCarousel.slides) ? cakesCarousel.slides : [];
 
-    renderSlides(homeTrack, homeSlides, galleryLookup);
-    renderSlides(cakesTrack, cakesSlides, galleryLookup);
+    renderSlides(homeTrack, homeSlides);
+    renderSlides(cakesTrack, cakesSlides);
   } catch (error) {
     console.error(error);
   }
