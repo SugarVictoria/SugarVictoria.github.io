@@ -167,7 +167,7 @@ img {
 
 .hero-content {
   background: rgba(17, 17, 17, 0.65);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(2px);
   padding: 32px 24px;
   border-radius: 16px;
 }
