@@ -352,6 +352,14 @@ a.card-link:hover {
   box-shadow: 0 16px 36px rgba(59, 42, 35, 0.18);
 }
 
+.news-card-cta {
+  margin-top: 12px;
+  font-weight: 600;
+  color: var(--coffee);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .feature-card img {
   border-radius: var(--radius-sm);
   margin-bottom: 14px;

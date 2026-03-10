@@ -76,14 +76,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         day: 'numeric',
       });
 
-      const linkHtml = post.link_url
-        ? `<p><a href="${escapeHtml(post.link_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.link_label || 'Find out more')}</a></p>`
+      const linkCta = post.link_url
+        ? `<p class="news-card-cta">${escapeHtml(post.link_label || 'Find out more')} &rarr;</p>`
         : '';
 
       const inner = `
           <h3>${escapeHtml(post.title)}</h3>
           <p><strong>${escapeHtml(post.type || 'News')}:</strong> ${dateLabel}</p>
           <p>${escapeHtml(post.summary || '')}</p>
+          ${linkCta}
         `;
 
       return post.link_url
