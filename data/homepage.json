@@ -32,6 +32,10 @@
         "image": "/public/sausagerolls.jpg",
         "alt": "Freshly baked sausage rolls",
         "caption": "Award-winning sausage rolls"
+      },
+      {
+        "image": "/public/uploads/img_2317.jpeg",
+        "caption": "Biscotti doughnuts "
       }
     ]
   },
