@@ -30,7 +30,7 @@
     </div>
   </header>
 
-  <main class="section">
+  <main class="section" data-visit-root>
     <div class="container">
       <h1 class="section-title reveal">Visit Sugar &amp; Victoria</h1>
       <p class="section-lead reveal delay-1">We are based in Stourport-on-Severn, Worcestershire, and always ready to welcome you for coffee, cakes, and comforting lunch bites.</p>
@@ -38,16 +38,19 @@
       <section class="grid grid-2">
         <article class="card reveal">
           <h2>Address</h2>
-          <p>Sugar &amp; Victoria<br>36 High St<br>Stourport-on-Severn DY13 8BA<br>Worcestershire, UK</p>
+          <p data-visit-address>Sugar &amp; Victoria<br>36 High St<br>Stourport-on-Severn DY13 8BA<br>Worcestershire, UK</p>
 
           <h2>Contact</h2>
-          <p>Phone: <a href="tel:07517473607">07517 473607</a><br>Email: <a href="mailto:sugarandvictoria@gmail.com">sugarandvictoria@gmail.com</a></p>
+          <p>
+            Phone: <a href="tel:07517473607" data-visit-phone-link>07517 473607</a><br>
+            Email: <a href="mailto:sugarandvictoria@gmail.com" data-visit-email-link>sugarandvictoria@gmail.com</a>
+          </p>
 
           <h2>At a Glance</h2>
-          <p>Price per person: £1-10<br>Reported by 16+ people</p>
+          <p data-visit-overview>Price per person: £1-10<br>Reported by 16+ people</p>
 
           <h2>Instagram</h2>
-          <p><a href="https://www.instagram.com/sugarandvictoria/" title="Instagram icons created by Freepik - Flaticon"><img src="public/instagram.png" alt="Instagram" style="width: 20px; height: 20px; display: inline-block; vertical-align: middle; margin-right: 6px;">@sugarandvictoria</a></p>
+          <p><a href="https://www.instagram.com/sugarandvictoria/" data-visit-instagram-link title="Instagram icons created by Freepik - Flaticon"><img src="public/instagram.png" alt="Instagram" style="width: 20px; height: 20px; display: inline-block; vertical-align: middle; margin-right: 6px;"><span data-visit-instagram-handle>@sugarandvictoria</span></a></p>
         </article>
 
         <article class="card reveal delay-1">
@@ -59,7 +62,7 @@
                 <th>Hours</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody data-visit-hours>
               <tr><td>Monday</td><td>9:00 am - 5:00 pm</td></tr>
               <tr><td>Tuesday</td><td>9:00 am - 5:00 pm</td></tr>
               <tr><td>Wednesday</td><td>9:00 am - 5:00 pm</td></tr>
@@ -78,6 +81,7 @@
           <iframe
             title="Google Map showing Sugar &amp; Victoria"
             src="https://www.google.com/maps?q=Sugar%20%26%20Victoria%2C%2036%20High%20St%2C%20Stourport-on-Severn%20DY13%208BA&output=embed"
+            data-visit-map
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             allowfullscreen>
@@ -102,6 +106,7 @@
   </footer>
 
   <script src="js/navbar.js" defer></script>
+  <script src="js/visit.js" defer></script>
   <script src="js/smooth-scroll.js" defer></script>
 </body>
 </html>

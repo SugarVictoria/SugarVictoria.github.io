@@ -1,0 +1,71 @@
+{
+  "home_carousel": {
+    "title": "From Our Counter",
+    "lead": "A rotating glimpse of guest favourites from across our drinks, bakes, and signature desserts.",
+    "slides": [
+      {
+        "image": "/public/victoriasponge.jpg",
+        "alt": "Classic Victoria sponge cake",
+        "caption": "Signature Victoria sponge"
+      },
+      {
+        "image": "/public/celebrationcakes.jpg",
+        "alt": "Beautiful celebration cakes",
+        "caption": "Celebration cakes for special moments"
+      },
+      {
+        "image": "/public/coffee.jpg",
+        "alt": "Latte art and espresso drinks",
+        "caption": "Coffee crafted for cosy moments"
+      },
+      {
+        "image": "/public/vanillabasquecheeesecake.jpg",
+        "alt": "Vanilla Basque cheesecake",
+        "caption": "Creamy Basque cheesecake"
+      },
+      {
+        "image": "/public/vanillacreamcroissants.jpg",
+        "alt": "Vanilla cream croissants",
+        "caption": "Freshly baked cream croissants"
+      },
+      {
+        "image": "/public/sausagerolls.jpg",
+        "alt": "Freshly baked sausage rolls",
+        "caption": "Award-winning sausage rolls"
+      }
+    ]
+  },
+  "cakes_carousel": {
+    "title": "Celebration Cakes to Order",
+    "lead": "Browse a selection of celebration cake styles from our gallery and order your perfect cake for birthdays, parties, and special occasions.",
+    "order_button_label": "Order a Celebration Cake",
+    "order_button_url": "visit.html",
+    "slides": [
+      {
+        "image": "/public/celebrationcakes.jpg",
+        "alt": "Celebration cakes ready to order",
+        "caption": "Elegant celebration cake designs"
+      },
+      {
+        "image": "/public/largecakes.jpg",
+        "alt": "Large custom cakes",
+        "caption": "Large cakes for bigger gatherings"
+      },
+      {
+        "image": "/public/victoriasponge.jpg",
+        "alt": "Classic Victoria sponge celebration cake",
+        "caption": "Classic Victoria sponge centrepiece"
+      },
+      {
+        "image": "/public/vanillabasquecheeesecake.jpg",
+        "alt": "Vanilla Basque cheesecake celebration option",
+        "caption": "Creamy vanilla Basque cheesecake"
+      },
+      {
+        "image": "/public/birthdayboxofcakes.jpg",
+        "alt": "Birthday box of cakes",
+        "caption": "Birthday cake box selections"
+      }
+    ]
+  }
+}

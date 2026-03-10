@@ -103,3 +103,152 @@ collections:
               - label: "Summary"
                 name: "summary"
                 widget: text
+
+      - file: "data/homepage.json"
+        label: "Homepage Sections"
+        name: "homepage"
+        fields:
+          - label: "Main Carousel"
+            name: "home_carousel"
+            widget: object
+            fields:
+              - label: "Section Title"
+                name: "title"
+                widget: string
+              - label: "Section Intro"
+                name: "lead"
+                widget: text
+              - label: "Slides"
+                name: "slides"
+                widget: list
+                summary: "{{fields.caption}}"
+                hint: "Use photo paths that already exist in Gallery, e.g. /public/coffee.jpg"
+                fields:
+                  - label: "Gallery Photo Path"
+                    name: "image"
+                    widget: string
+                  - label: "Alt Text"
+                    name: "alt"
+                    widget: string
+                    required: false
+                  - label: "Caption"
+                    name: "caption"
+                    widget: string
+                    required: false
+
+          - label: "Celebration Cakes Carousel"
+            name: "cakes_carousel"
+            widget: object
+            fields:
+              - label: "Section Title"
+                name: "title"
+                widget: string
+              - label: "Section Intro"
+                name: "lead"
+                widget: text
+              - label: "Order Button Label"
+                name: "order_button_label"
+                widget: string
+              - label: "Order Button Link"
+                name: "order_button_url"
+                widget: string
+                hint: "Example: visit.html"
+              - label: "Slides"
+                name: "slides"
+                widget: list
+                summary: "{{fields.caption}}"
+                hint: "Use photo paths that already exist in Gallery, e.g. /public/celebrationcakes.jpg"
+                fields:
+                  - label: "Gallery Photo Path"
+                    name: "image"
+                    widget: string
+                  - label: "Alt Text"
+                    name: "alt"
+                    widget: string
+                    required: false
+                  - label: "Caption"
+                    name: "caption"
+                    widget: string
+                    required: false
+
+      - file: "reviews.json"
+        label: "Reviews"
+        name: "reviews"
+        fields:
+          - label: "Reviews"
+            name: "reviews"
+            widget: list
+            summary: "{{fields.source}} - {{fields.author}}"
+            fields:
+              - label: "Author"
+                name: "author"
+                widget: string
+              - label: "Source"
+                name: "source"
+                widget: select
+                options:
+                  - "Google"
+                  - "Facebook"
+                  - "TripAdvisor"
+                  - "Guest"
+              - label: "Date"
+                name: "date"
+                widget: string
+                hint: "Example: 6 Mar 2026"
+              - label: "Rating"
+                name: "rating"
+                widget: number
+                value_type: int
+                min: 1
+                max: 5
+              - label: "Title"
+                name: "title"
+                widget: string
+              - label: "Review Text"
+                name: "text"
+                widget: text
+              - label: "Visit Type"
+                name: "visit_type"
+                widget: string
+                required: false
+
+      - file: "data/visit.json"
+        label: "Visit and Contact"
+        name: "visit"
+        fields:
+          - label: "Address Lines"
+            name: "address_lines"
+            widget: list
+            field:
+              label: "Line"
+              name: "line"
+              widget: string
+          - label: "Phone"
+            name: "phone"
+            widget: string
+          - label: "Email"
+            name: "email"
+            widget: string
+          - label: "Instagram URL"
+            name: "instagram_url"
+            widget: string
+          - label: "Instagram Handle"
+            name: "instagram_handle"
+            widget: string
+          - label: "Overview Text"
+            name: "overview"
+            widget: text
+          - label: "Opening Hours"
+            name: "opening_hours"
+            widget: list
+            summary: "{{fields.day}}: {{fields.hours}}"
+            fields:
+              - label: "Day"
+                name: "day"
+                widget: string
+              - label: "Hours"
+                name: "hours"
+                widget: string
+          - label: "Google Map Embed URL"
+            name: "map_embed_url"
+            widget: string

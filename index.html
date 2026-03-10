@@ -69,49 +69,44 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" data-homepage-root>
       <div class="container">
-        <h2 class="section-title reveal">From Our Counter</h2>
-        <p class="section-lead reveal delay-1">A rotating glimpse of guest favourites from across our drinks, bakes, and signature desserts.</p>
+        <h2 class="section-title reveal" data-home-carousel-title>From Our Counter</h2>
+        <p class="section-lead reveal delay-1" data-home-carousel-lead>A rotating glimpse of guest favourites from across our drinks, bakes, and signature desserts.</p>
 
         <div class="carousel-wrap reveal delay-2" data-carousel>
-          <div class="carousel-track" data-carousel-track>
+          <div class="carousel-track" data-carousel-track data-home-carousel-track>
             <figure class="slide">
               <img src="public/victoriasponge.jpg" alt="Classic Victoria sponge cake">
               <figcaption class="slide-caption">Signature Victoria sponge</figcaption>
-            </figure>
-            <figure class="slide">
-              <img src="public/celebrationcakes.jpg" alt="Beautiful celebration cakes">
-              <figcaption class="slide-caption">Celebration cakes for special moments</figcaption>
-            </figure>
-            <figure class="slide">
-              <img src="public/coffee.jpg" alt="Latte art and espresso drinks">
-              <figcaption class="slide-caption">Coffee crafted for cosy moments</figcaption>
-            </figure>
-            <figure class="slide">
-              <img src="public/vanillabasquecheeesecake.jpg" alt="Vanilla Basque cheesecake">
-              <figcaption class="slide-caption">Creamy Basque cheesecake</figcaption>
-            </figure>
-            <figure class="slide">
-              <img src="public/vanillacreamcroissants.jpg" alt="Vanilla cream croissants">
-              <figcaption class="slide-caption">Freshly baked cream croissants</figcaption>
-            </figure>
-            <figure class="slide">
-              <img src="public/sausagerolls.jpg" alt="Freshly baked sausage rolls">
-              <figcaption class="slide-caption">Award-winning sausage rolls</figcaption>
-            </figure>
-            <figure class="slide">
-              <img src="public/brownies.jpg" alt="Chocolate brownies">
-              <figcaption class="slide-caption">Rich chocolate brownies</figcaption>
-            </figure>
-            <figure class="slide">
-              <img src="public/baguettesandwiches.jpg" alt="Fresh baguette sandwiches">
-              <figcaption class="slide-caption">Light lunch favourites</figcaption>
             </figure>
           </div>
           <button class="carousel-btn prev" data-carousel-prev aria-label="Previous slide">&#10094;</button>
           <button class="carousel-btn next" data-carousel-next aria-label="Next slide">&#10095;</button>
         </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title reveal" data-cakes-carousel-title>Celebration Cakes to Order</h2>
+        <p class="section-lead reveal delay-1" data-cakes-carousel-lead>Browse a selection of celebration cake styles from our gallery and order your perfect cake for birthdays, parties, and special occasions.</p>
+
+        <div class="carousel-wrap reveal delay-2" data-carousel>
+          <div class="carousel-track" data-carousel-track data-cakes-carousel-track>
+            <figure class="slide">
+              <img src="public/celebrationcakes.jpg" alt="Celebration cakes ready to order">
+              <figcaption class="slide-caption">Elegant celebration cake designs</figcaption>
+            </figure>
+          </div>
+          <button class="carousel-btn prev" data-carousel-prev aria-label="Previous cake slide">&#10094;</button>
+          <button class="carousel-btn next" data-carousel-next aria-label="Next cake slide">&#10095;</button>
+        </div>
+
+        <div class="btn-row reveal delay-3" style="margin-top: 18px; justify-content: flex-start;" data-cakes-order-wrap>
+          <a class="btn btn-primary" href="visit.html" data-cakes-order-btn>Order a Celebration Cake</a>
+        </div>
+
       </div>
     </section>
 
@@ -141,6 +136,7 @@
   </footer>
 
   <script src="js/navbar.js" defer></script>
+  <script src="js/homepage.js" defer></script>
   <script src="js/carousel.js" defer></script>
   <script src="js/news.js" defer></script>
   <script src="js/smooth-scroll.js" defer></script>
