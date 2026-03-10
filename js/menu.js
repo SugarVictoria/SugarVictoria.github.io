@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         const cards = section.items
           .filter((item) => item && item.name)
           .map((item) => {
-            const description = item.description || '';
+            const description = item.description ? `<p>${item.description}</p>` : '';
             const price = item.price || '';
             return `
               <article class="card reveal">
                 <h3>${item.name}</h3>
-                <p>${description}</p>
+                ${description}
                 <p class="price">${price}</p>
               </article>
             `;
