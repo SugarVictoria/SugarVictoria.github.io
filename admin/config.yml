@@ -122,11 +122,15 @@ collections:
                 name: "slides"
                 widget: list
                 summary: "{{fields.caption}}"
-                hint: "Use photo paths that already exist in Gallery, e.g. /public/coffee.jpg"
+                hint: "Choose from uploaded photos in the media library."
                 fields:
-                  - label: "Gallery Photo Path"
+                  - label: "Photo"
                     name: "image"
-                    widget: string
+                    widget: image
+                    choose_url: false
+                    media_library:
+                      config:
+                        multiple: false
                   - label: "Alt Text"
                     name: "alt"
                     widget: string
@@ -157,11 +161,15 @@ collections:
                 name: "slides"
                 widget: list
                 summary: "{{fields.caption}}"
-                hint: "Use photo paths that already exist in Gallery, e.g. /public/celebrationcakes.jpg"
+                hint: "Choose from uploaded photos in the media library."
                 fields:
-                  - label: "Gallery Photo Path"
+                  - label: "Photo"
                     name: "image"
-                    widget: string
+                    widget: image
+                    choose_url: false
+                    media_library:
+                      config:
+                        multiple: false
                   - label: "Alt Text"
                     name: "alt"
                     widget: string
