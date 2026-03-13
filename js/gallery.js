@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       .map((item) => {
         const src = item.image.startsWith('/') ? item.image.slice(1) : item.image;
         const alt = item.alt || 'Sugar & Victoria gallery image';
-        return `<img src="${src}" alt="${alt}" data-gallery-image>`;
+          return `<img src="${src}" alt="${alt}" data-gallery-image loading="lazy" decoding="async">`;
       })
       .join('');
   } catch (error) {

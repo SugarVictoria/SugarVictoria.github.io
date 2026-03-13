@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         return `
           <figure class="slide">
-            <img src="${src}" alt="${alt}">
+            <img src="${src}" alt="${alt}" loading="lazy" decoding="async">
             ${caption}
           </figure>
         `;
