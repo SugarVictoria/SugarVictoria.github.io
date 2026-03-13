@@ -31,16 +31,49 @@
     {
       "@context": "https://schema.org",
       "@type": "CafeOrCoffeeShop",
+      "@id": "https://sugarandvictoria.com/#cafe",
       "name": "Sugar & Victoria",
       "url": "https://sugarandvictoria.com/",
       "image": "https://sugarandvictoria.com/public/pfp.jpg",
+      "telephone": "+447517473607",
+      "priceRange": "£1-10",
+      "servesCuisine": [
+        "Cafe",
+        "Desserts",
+        "Pastries",
+        "Coffee",
+        "Light lunch"
+      ],
       "description": "Independent cafe in Stourport-on-Severn serving desserts, pastries, coffee, and light lunch favourites.",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "36 High St",
         "addressLocality": "Stourport-on-Severn",
         "addressRegion": "Worcestershire",
+        "postalCode": "DY13 8BA",
         "addressCountry": "GB"
       },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
       "sameAs": [
         "https://www.instagram.com/sugarandvictoria/",
         "https://www.facebook.com/profile.php?id=100027121431804&sk=photos"
@@ -96,7 +129,7 @@
     <span class="news-ticker-label">Today</span>
     <div class="news-ticker-overflow">
       <div class="news-ticker-track" data-news-ticker-track>
-        <span class="news-ticker-item">Loading today's updates…</span>
+        <span class="news-ticker-item">Exciting News: England Business Awards Finalist! Voting is open now.</span>
       </div>
     </div>
   </div>
@@ -120,7 +153,12 @@
         <h2 class="section-title reveal">Latest News</h2>
         <p class="section-lead reveal delay-1">Recent updates, closures, and holiday opening times.</p>
         <div class="grid grid-3" data-news-list aria-live="polite">
-          <p>Loading updates...</p>
+          <article class="card">
+            <h3>England Business Awards Finalist!</h3>
+            <p><strong>Exciting News:</strong> 13 Mar 2026</p>
+            <p>We have been nominated and are now finalists for the Worcestershire district at the England Business Awards. Voting is still open — click below to support us!</p>
+            <p class="news-card-cta"><a href="https://englandsbusinessawards.co.uk/worcestershire/" target="_blank" rel="noopener noreferrer">Vote for us here</a></p>
+          </article>
         </div>
       </div>
     </section>

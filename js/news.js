@@ -45,7 +45,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         return `<span class="news-ticker-item">${label}${escapeHtml(p.title)}${summary}</span>`;
       });
     } else {
-      items = ['<span class="news-ticker-item">No announcements today \u2014 come in and say hello!</span>'];
+      // Preserve the static ticker text from HTML when no data is available.
+      items = Array.from(tickerTrack.querySelectorAll('.news-ticker-item')).map((item) => item.outerHTML);
     }
 
     // Duplicate for seamless infinite scroll
@@ -59,7 +60,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   if (!posts.length) {
-    newsList.innerHTML = '<p>No updates posted yet.</p>';
+    // Keep server-rendered fallback cards crawlable and visible.
     return;
   }
 
