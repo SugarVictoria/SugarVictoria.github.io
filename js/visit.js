@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     if (mapFrame && data.map_embed_url) {
-      mapFrame.setAttribute('src', String(data.map_embed_url));
+      mapFrame.setAttribute('data-src', String(data.map_embed_url));
     }
   } catch (error) {
     console.error(error);
