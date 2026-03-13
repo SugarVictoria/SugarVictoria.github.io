@@ -79,6 +79,17 @@
     {
       "image": "/public/exterior.jpg",
       "alt": "Cafe exterior view"
+    },
+    {
+      "image": "/public/finalistslogo.jpg",
+      "alt": "2026 England's Business Awards Finalist logo"
+    },
+    {
+      "image": "/public/lettertosugarlettertosugarvictoriaannouncingfinalistposition.jpg",
+      "alt": "Letter announcing finalist position in England's Business Awards"
+    },
+    {"image": "/public/tablewithNomineeplaque.jpg",
+      "alt": "Instructions on how to vote for Sugar & Victoria in England's Business Awards"
     }
   ]
 }
