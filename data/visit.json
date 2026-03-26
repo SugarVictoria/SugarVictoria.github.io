@@ -1,8 +1,8 @@
 {
   "address_lines": [
     "Sugar & Victoria",
-    "36 High St",
-    "Stourport-on-Severn DY13 8BA",
+    "1 Lombard St",
+    "Stourport-on-Severn DY13 8DP",
     "Worcestershire, UK"
   ],
   "phone": "07517473607",
@@ -40,5 +40,5 @@
       "hours": "Closed"
     }
   ],
-  "map_embed_url": "https://www.google.com/maps?q=Sugar%20%26%20Victoria%2C%2036%20High%20St%2C%20Stourport-on-Severn%20DY13%208BA&output=embed"
+  "map_embed_url": "https://www.google.com/maps?q=0x48708b0038dd637b:0x6c6f2d25a60b55eb&output=embed"
 }
